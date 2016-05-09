@@ -1,0 +1,11 @@
+
+Projet Transversal
+Cours Internet des Objets-NodeJS
+
+Question 3 :
+Nous avons décidé de d’utiliser un processus unique qui va permettre de récupérer les messages envoyés par le client gérer les modifications. Cela va permettre d’éviter les conflits il n’y aura que le processeur pour traiter les messages. Ces messages sont des messages queue avec l’ensemble des outils IPC qui contiendront une clé et seront en file d’attente. 
+
+Question 4 :
+Pour accéder à l’interface offerte, nous allons utiliser le protocole TCP. 
+Les applications peuvent communiquer de façon sûre (grâce au système d'accusés de réception du protocole TCP). Le but de du serveur est de répondre aux interrogations du client. Il va être connecté à des ports et attendra les demandes des clients.  
+S’il y a une erreur dans le message le serveur envoie un message d’erreur
